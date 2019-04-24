@@ -23,7 +23,7 @@
                 <div class="card text-white bg-primary">
                   <div class="card-body pb-0">
 
-                    <div class="text-value">X</div>
+                    <div class="text-value"><?php echo count(UserData::getAll()); ?></div>
                     <div>Usuarios</div>
                   </div>
                   <br>
@@ -71,4 +71,23 @@
 
             <!-- /.row-->
           </div>
+
+          <div class="row">
+            <div class="col-md-12">
+
+ <div class="card">
+                  <div class="card-header">
+                    <strong>Bienvenido!</strong>
+                  </div>
+                  <div class="card-body">
+                    <p>Bienvenido a Evil CoreUI Kit, kit de desarrollo con la plantilla CoreUI y el microframework Legobox con PHP y MySQL.</p>
+                  </div>
+                </div>
+
+            </div>
+          </div>
+
+
+
+
         </div>
